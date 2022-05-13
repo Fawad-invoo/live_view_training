@@ -16,7 +16,7 @@ config :live_view_training, LiveViewTrainingWeb.Endpoint,
   secret_key_base: "0ifcp5lr8XQQn7fv2PmE/VrwhRajZwIja9FAnTzLYFcabxCROldw6cY4cXoN45Gg",
   render_errors: [view: LiveViewTrainingWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: LiveViewTraining.PubSub,
-  live_view: [signing_salt: "zu2dasXF"]
+  live_view: [signing_salt: "EthRI4LW/YohwBvWEB48Oxx+bwXKAApM"]
 
 # Configures Elixir's Logger
 config :logger, :console,

@@ -32,7 +32,8 @@ defmodule LiveViewTrainingWeb do
       use Phoenix.View,
         root: "lib/live_view_training_web/templates",
         namespace: LiveViewTrainingWeb
-
+      
+      import Phoenix.LiveView.Helpers
       # Import convenience functions from controllers
       import Phoenix.Controller,
         only: [get_flash: 1, get_flash: 2, view_module: 1, view_template: 1]
@@ -48,6 +49,7 @@ defmodule LiveViewTrainingWeb do
 
       import Plug.Conn
       import Phoenix.Controller
+      import Phoenix.LiveView.Router
     end
   end
 
